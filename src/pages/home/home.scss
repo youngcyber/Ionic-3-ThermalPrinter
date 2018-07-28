@@ -1,0 +1,21 @@
+page-home {
+    #thehtml{
+        text-align: center;
+        border:2px solid #000;
+        padding:4px;
+    }
+    img{
+        width:100px;
+    }
+    #text_arabic{
+        text-align: right;
+        direction: rtl;
+    }
+    .grid{
+        border:1px solid #000;
+        padding:2px;
+        .col{
+            border:1px solid #000;
+        }
+    }
+}

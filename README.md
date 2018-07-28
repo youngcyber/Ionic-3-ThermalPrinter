@@ -1,6 +1,5 @@
 # cordova Ionic 3 thermal printer
 
-
 This example demonstrates how to print to network, Socket connected receipt printers using the Epson ESC/POS printer control language.
 
 

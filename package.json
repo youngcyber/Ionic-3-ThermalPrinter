@@ -1,0 +1,40 @@
+{
+  "name": "Ionic 3 ThermalPrinter",
+  "version": "0.0.1",
+  "author": "Ionic Framework",
+  "homepage": "http://ionicframework.com/",
+  "private": true,
+  "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "lint": "ionic-app-scripts lint",
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
+  },
+  "dependencies": {
+    "escpos": "^2.4.9",
+    "html2canvas": "^1.0.0-alpha.12",
+  },
+  "devDependencies": {
+    "@ionic/app-scripts": "3.1.10",
+    "@types/node": "^10.5.1",
+    "typescript": "~2.6.2"
+  },
+  "description": "An Ionic project",
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {},
+      "com.napolitano.cordova.plugin.intent": {},
+      "com-darryncampbell-cordova-plugin-intent": {},
+      "cordova-plugin-chrome-apps-sockets-tcp": {},
+      "cordova-plugin-file": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

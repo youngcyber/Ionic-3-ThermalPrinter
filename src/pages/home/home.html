@@ -1,0 +1,64 @@
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Home</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding>
+    <h3>Ionic Menu Starter</h3>
+  
+    <p>
+      If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+    </p>
+    
+    
+    <div id="thehtml" style="width:380px;position: absolute;right: 100%;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspbYDtYuNCPTjjaBzoEmUmlHGPqN7VVzyTFKSGXoKc-AG75fc"/>
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            1 of 3
+          </ion-col>
+          <ion-col>
+            2 of 3
+          </ion-col>
+          <ion-col>
+            3 of 3
+          </ion-col>
+          <ion-col>
+              4 of 4
+          </ion-col>
+          <ion-col>
+                5 of 5
+          </ion-col>
+        </ion-row>
+
+
+        <ion-row *ngFor="let item of items">
+          <ion-col>
+            {{item.title1}}
+          </ion-col>
+          <ion-col>
+            {{item.title2}}
+          </ion-col>
+          <ion-col>
+            {{item.title3}}
+          </ion-col>
+          <ion-col>
+             {{item.title4}}
+            </ion-col>
+            <ion-col>
+              {{item.title5}}
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+    <button ion-button secondary (click)="ConnectPrinter()">Connect</button>
+    <button ion-button secondary (click)="AddRow()">Add Row</button>
+    <button ion-button secondary (click)="PrintInvoice()">Print Invoice</button>
+  
+  </ion-content>
+  

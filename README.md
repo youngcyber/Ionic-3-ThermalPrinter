@@ -6,8 +6,8 @@ This example demonstrates how to print to network, Socket connected receipt prin
 ## How to use
 
 * Install the Cordova and Ionic: ``` npm install -g cordova ionic ```
-* Install nodel modules : ``` npm install
-* Install & Import html2canvas plugin ``` https://github.com/niklasvh/html2canvas
+* Install nodel modules : ``` npm install ```
+* Install html2canvas plugin ``` https://github.com/niklasvh/html2canvas ```
 * Add Android project: ``` cordova platform add android ``` 
 * Build and Run Android project: ``` cordova run android  / ionic run android -l -c ``` 
 

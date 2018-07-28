@@ -11,7 +11,7 @@ This example demonstrates how to print to network, Socket connected receipt prin
 * Add Android project: ``` cordova platform add android ``` 
 * Build and Run Android project: ``` cordova run android  / ionic run android -l -c ``` 
 
-* if there is problem with none ltr language you can solved by adding word-wrap: unset; in your body style
+* if there is problem with none ltr language you can solved by adding (word-wrap: unset;) in your body style
 
 ## Resources
 
